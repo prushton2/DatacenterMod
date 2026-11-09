@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+      {
+        "fabric:type": "fabric:custom_data",
+        "base": "oc2:flash_memory",
+        "nbt": {
+          "oc2": { "image": "oc2:block_devices/flash/z80.bin" }
+        }
+      }
+  ],
+  "result": { 
+    "id": "oc2:flash_memory", 
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "oc2": {
+          "image": "oc2:block_devices/flash/riscv.bin"
+        }
+      },
+      "minecraft:dyed_color": -10585066
+    }
+  }
+}
