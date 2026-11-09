@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+      "oc2:hard_drive_small"
+  ],
+  "result": {
+    "id": "oc2:hard_drive_small",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "oc2": {
+          "image": "oc2:block_devices/hdd/openos2.bin"
+        }
+      }, 
+      "minecraft:dyed_color": -12930086
+    }
+  }
+}
